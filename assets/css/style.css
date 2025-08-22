@@ -145,6 +145,7 @@ a {
     height: 40px;
     width: auto;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 .nav-menu {

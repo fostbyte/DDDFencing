@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <!-- Gradient for the main logo elements -->
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ddc7a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5deb3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for the fence posts -->
+    <linearGradient id="postGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ddc7a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9b88a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle for the icon -->
+  <circle cx="30" cy="30" r="25" fill="url(#primaryGradient)" opacity="0.1"/>
+  
+  <!-- Fence posts -->
+  <rect x="10" y="15" width="3" height="30" fill="url(#postGradient)" rx="1"/>
+  <rect x="20" y="18" width="3" height="27" fill="url(#postGradient)" rx="1"/>
+  <rect x="30" y="15" width="3" height="30" fill="url(#postGradient)" rx="1"/>
+  <rect x="40" y="18" width="3" height="27" fill="url(#postGradient)" rx="1"/>
+  <rect x="50" y="15" width="3" height="30" fill="url(#postGradient)" rx="1"/>
+  
+  <!-- Horizontal fence rails -->
+  <rect x="8" y="22" width="47" height="2" fill="url(#primaryGradient)" rx="1"/>
+  <rect x="8" y="32" width="47" height="2" fill="url(#primaryGradient)" rx="1"/>
+  <rect x="8" y="42" width="47" height="2" fill="url(#primaryGradient)" rx="1"/>
+  
+  <!-- Company name - DDD -->
+  <text x="70" y="25" font-family="'Roboto Slab', serif" font-size="24" font-weight="700" fill="url(#primaryGradient)">DDD</text>
+  
+  <!-- Company type - Fencing -->
+  <text x="70" y="45" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#f5f5f5">FENCING</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="155" cy="20" r="2" fill="url(#primaryGradient)" opacity="0.6"/>
+  <circle cx="165" cy="25" r="1.5" fill="url(#primaryGradient)" opacity="0.4"/>
+  <circle cx="175" cy="18" r="1" fill="url(#primaryGradient)" opacity="0.3"/>
+  
+  <!-- Professional tagline -->
+  <text x="70" y="55" font-family="'Inter', sans-serif" font-size="8" font-weight="400" fill="#d0d0d0">Professional Solutions</text>
+</svg>

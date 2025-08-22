@@ -504,6 +504,7 @@ section {
     height: 35px;
     width: auto;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 .brand-name {
